@@ -1,0 +1,13 @@
+[package]
+name = "rs-binding"
+version = "0.1.0"
+authors = ["limit <747638920@qq.com>"]
+edition = "2018"
+
+[dependencies]
+
+[dependencies.rs]
+path = "../rs"
+
+[lib]
+crate-type = ["staticlib"]
