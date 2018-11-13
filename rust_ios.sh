@@ -6,10 +6,6 @@ for ARCH in `echo $ARCHS`; do
     RUST_ARCH="aarch64-apple-ios"
   fi
 
-  if [ "${CONFIGURATION}" = "Release" ]; then
-    CONFIGURATION="release"
-  fi
-
   if [ "${CONFIGURATION}" = "release" ]; then
     CONFIG="--release"
   fi
